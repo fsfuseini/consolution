@@ -1,3 +1,89 @@
-h1{
-    color: black;
+* {
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  overflow-x: hidden;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  width: 100vw;
+  align-items: center;
+}
+
+header span button {
+  background-color: #1b9ce3;
+  color: white;
+  height: 40px;
+  width: 225px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  background-color: #0d1128;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.text-white {
+  color: white;
+}
+#nav-items {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+#nav-search {
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+#hero {
+  background-image: url(../images/bg_1.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 100px;
+  color: white;
+  font-size: xx-large;
+}
+
+#hero-btn {
+  background-color: #1b9ce3;
+  color: white;
+  height: 50px;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* #overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rbga(0, 0, 0, 0.3);
+} */
+#features {
+  background-color: aqua;
 }
