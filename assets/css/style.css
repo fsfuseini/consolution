@@ -38,6 +38,7 @@ nav {
 .text-white {
   color: white;
 }
+
 #nav-items {
   display: flex;
   color: white;
@@ -75,6 +76,7 @@ nav {
   font-weight: bold;
   font-size: 18px;
 }
+
 /* #overlay {
   height: 100%;
   width: 100%;
@@ -85,5 +87,35 @@ nav {
   background-color: rbga(0, 0, 0, 0.3);
 } */
 #features {
-  background-color: aqua;
+  display: flex;
+  gap: 20px;
+  margin-top: 112px;
+  margin-right: 205px;
+  margin-left: 190px;
+}
+
+#feature-main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#feature-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+
+#image-feature {
+  height: 742px;
+  width: 445px;
+  padding: 20px;
+}
+
+.features-clip-art {
+  background-color: #f0f9fd;
+  clip-path: polygon(67% 0%, 100% 25%, 100% 99%, 0% 100%, 0% 0%);
+  height: 297px;
+  width: 253px;
+  align-items: center;
+  justify-content: center;
 }
